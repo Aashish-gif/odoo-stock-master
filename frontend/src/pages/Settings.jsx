@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Plus, Edit, Trash2, MapPin } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
 import {
   Dialog,
   DialogContent,
@@ -9,10 +9,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/ui/dialog';
-import { Label } from '@/components/ui/label';
+} from '../components/ui/dialog';
+import { Label } from '../components/ui/label';
 import { toast } from 'sonner';
-import { Textarea } from '@/components/ui/textarea';
+import { Textarea } from '../components/ui/textarea';
 
 export default function Settings() {
   const [warehouses, setWarehouses] = useState([
